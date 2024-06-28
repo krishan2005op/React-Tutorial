@@ -1,0 +1,11 @@
+to start the development server :-
+ 1. cd <file-name>
+ 2. npm run dev 
+
+To start working with react go to terminal and do:-
+ 1. first write a command like this - 
+      npm create vite@latest
+ 2. write project name    and then select a framework(React)
+ 3. select plain javascript as a variant 
+
+{} use this in html react code to write javascript code inside html code
