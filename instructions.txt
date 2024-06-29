@@ -9,3 +9,13 @@ To start working with react go to terminal and do:-
  3. select plain javascript as a variant 
 
 {} use this in html react code to write javascript code inside html code
+
+To change Port number we can locate vite.config.js file in our folder and copy the below code ::-
+// vite.config.js
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  server: {
+    port: 3001, // change to your desired port
+  },
+});
