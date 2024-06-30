@@ -5,7 +5,7 @@
 // 1. EXTERNAL
 // 2. MODULES
 // 3. INLINE
-import Button from "./Button/button";
+import Button from "./Button/button.jsx";
 function App(){
 
   return(<>
