@@ -29,3 +29,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
+
+
+if you want to exit from a folder using terminal just use command 
+ cd ..
+
