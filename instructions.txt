@@ -34,3 +34,8 @@ export default defineConfig({
 if you want to exit from a folder using terminal just use command 
  cd ..
 
+
+&& is used for rendering elements if the statement is true , if false then returns null 
+syntax:- 
+ condition && condtion for true statement
+ returns null for false
