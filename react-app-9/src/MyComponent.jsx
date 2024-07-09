@@ -1,6 +1,7 @@
 //onChange = event handler used primarly with form elements
 //           ex. <input> , <textarea>, <select>, <radio>
 //           triggers the function everytime the value of the input changes 
+// eslint-disable-next-line no-unused-vars
 import React,{useState} from 'react'
 function MyComponent(){
 
