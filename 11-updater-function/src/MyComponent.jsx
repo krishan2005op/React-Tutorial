@@ -1,3 +1,12 @@
+//updater function = A function as an argument to setState() usually
+//                   ex. setYear(count+1) => setYear(c => c+1)
+//                   allow for safe updates based on the previous state
+//                   Used with multiple state updates and asynchronous functions
+//                   Good practice to use updater function
+
+
+
+
 /* eslint-disable no-unused-vars */
 import React,{useState} from "react";
 
@@ -6,20 +15,22 @@ function Counter(){
     const [count, setCount] = useState(0);
 
     const increment = () => {
-        setCount(count + 1);
+        setCount( prevCount => prevCount + 1);
+        setCount( prevCount => prevCount + 1);
+        setCount( prevCount => prevCount + 1);
     }
 
     const decrement = () => {
-        if (count  === 0) {
-            setCount(count)
-        }
-        else{
-            setCount(count - 1);
-        }
+
+        
+        setCount(c => c - 1);
+        setCount(c => c - 1);
+        setCount(c => c - 1);
+        
     }
 
     const restart = () => {
-        setCount(count - count);
+        setCount(0);
     }
 
     return(
