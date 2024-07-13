@@ -1,4 +1,4 @@
-import MyComponent from "./MyComponent"
+import React,{ useState } from 'react'
 
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-
-      <MyComponent/>
+      
+      
     </>
   )
 }
