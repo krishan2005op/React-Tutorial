@@ -17,7 +17,7 @@ function Button(){
 
     return(
         <>
-            <button onDoubleClick={(e)=>handleClick(e)}>click me 🫡</button>
+            <button onDoubleClick={(e)=>handleClick(e)} /* optional we cal also simply write handlClick*/ >click me 🫡</button>
         </>
     )
 }

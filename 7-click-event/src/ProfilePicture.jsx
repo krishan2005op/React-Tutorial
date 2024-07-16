@@ -3,13 +3,18 @@
 function ProfilePicture(){
 
         // eslint-disable-next-line no-unused-vars
-        const imageURL = "";
+        const imageURL = "https://via.placeholder.com/150";
 
         // eslint-disable-next-line no-unused-vars
         const handleClick = () => console.log("OOUCH!!");
 
         return(
-            <img src={imageURL}></img>
+            <>
+                <div onClick={handleClick}>
+                 <img src={imageURL} ></img>
+                </div>
+            </>
+            
         )
 }
 
