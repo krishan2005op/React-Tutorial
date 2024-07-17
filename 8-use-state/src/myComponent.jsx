@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React,{useState} from 'react'
 
 function MyComponent(){
@@ -12,7 +13,9 @@ function MyComponent(){
     }
 
     const incrementAge = () => {
-        setAge(Age+1);
+        setAge(a => (a+3));
+        setAge(a => (a+3));
+        setAge(a => (a+3));
     }
 
     const toggleEmployedStatus = () => {

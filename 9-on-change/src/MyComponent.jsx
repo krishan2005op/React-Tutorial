@@ -53,7 +53,7 @@ function MyComponent(){
                         <option value="Master Card">Master Card</option>
                         <option value="Gift Card">Gift Card</option>
                 </select>
-                <p>Payemnt: {payment}</p>
+                <p>Payment: {payment}</p>
 
 
                 <label>
