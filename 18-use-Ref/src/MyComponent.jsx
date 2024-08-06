@@ -12,6 +12,7 @@ import React, {useState,useEffect,useRef} from 'react'
 function MyComponent(){
 
     const ref = useRef(0);
+    const [count,setCount] = useState(0)
 
     useEffect(() => {
         console.log("COMPONENT RENDERED");
@@ -21,11 +22,19 @@ function MyComponent(){
         ref.current = ref.current + 1
         console.log(ref.current);
     }
+    function handleClick1(){
+        setCount(c => c+1)
+        console.log(count);
+        
+    }
        
     return(
     <>
         <button onClick={handleClick}> 
             click me!!
+        </button>
+        <button onClick={handleClick1}>
+            click me !
         </button>
     </>
     );
