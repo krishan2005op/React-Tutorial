@@ -1,13 +1,13 @@
 // useEffect() = React hook that tells react to Do SOME CODE WHEN (pick one);
 //               this component re-renders
-//               this coponent mounts
+//               this component mounts
 //               this state of a value
 
 // useEffect(function, [dependices])
 
 // 1. useEffect(() => {}) // runs after every re-render
 // 2. useEffect(() => {}, [])  //runs only on mount
-// 3. useEffect(() => {}, [value]) //Run on mount + whne value changes
+// 3. useEffect(() => {}, [value]) //Run on mount + when value changes
 
 //USES
 // #1 Event Listeners
